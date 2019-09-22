@@ -52,3 +52,10 @@ document.write(centLogo);
 * "Школа юных программистов" Mogilev City.(Pascal)
 * "Web developer" GeekBrains
 * "Full Stuck Web Developer" Miami Date College
+
+### Education:
+* 4.5 courses Belorussian-Russian University (Engineer)
+* Now study at 5 course in "Московский финансово-промышленный университет «Синергия»"
+
+### English Level:
+* between A2-B2
