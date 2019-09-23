@@ -1,0 +1,21 @@
+.content{
+    max-width: 1024px;
+    margin: auto;
+    background: lightyellow;
+
+}
+body{
+    background: #b0a9a1;
+    margingit : 0px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    background: green;
+
+}
+
+#NamePicture{
+    display: flex;
+}

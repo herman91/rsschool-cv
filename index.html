@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Cv</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+    <div style="width: 95%; margin: auto; padding-bottom: 2%">
+        <div id="NamePicture" >
+            <h1 style="width: 70%">Herman Kapitonau</h1>
+            <img src="https://sites.psu.edu/siowfa16/files/2016/10/YeDYzSR-10apkm4.png">
+        </div>
+
+        <div>
+            <h2>Contacts:</h2>
+            <ul>
+                <li>phone: +375(29)547-85-91</li>
+                <li>email: kap91usa@gmail.com</li>
+            </ul>
+        </div>
+
+        <h2> Summary:</h2>
+        My goal is to start career in IT and
+        become a successful web developer. So i'm ready to work 7/24
+
+        <h2>Skills:</h2>
+        <ul>
+            <li>Pascal(was very good at school 10 years ago)</li>
+            <li>HTML/CSS(average level)</li>
+            <li>JavaScript(basic level)</li>
+            <li>React(basic level)</li>
+            <li>Python(beginner)</li>
+        </ul>
+
+        <h2>Latest code example:</h2>
+        <pre style="background: #10032a; color: yellow">
+    let cards = [2,3,4,5,6,7,8,9,10,"J","D","K"];
+
+    function randimizer(b) {
+    let rand = (Math.floor(Math.random() * b) + 1 );
+    return(rand);
+    }
+
+    let centLogo = cards[randimizer(cards.length)-1];
+
+
+
+    let suit = ["heart", "diamond", "spade","club"];
+
+
+    function random2() {
+    let rand = (Math.floor(Math.random() * 4) + 1 );
+    return(rand);
+    }
+
+    let rand = random2();
+
+    let el = document.querySelector(".card");
+    el.classList.add(suit[rand-1]);
+
+
+    document.write(centLogo);
+    </pre>
+
+        <h2>Experience:</h2>
+
+        <h4>Courses:</h4>
+        <ul>
+            <li>"Школа юных программистов" Mogilev City.(Pascal)</li>
+            <li>"Web developer" GeekBrains</li>
+            <li>"Full Stuck Web Developer" Miami Date College</li>
+        </ul>
+
+        <h2>Education:</h2>
+        <ul>
+            <li>4.5 courses Belorussian-Russian University (Engineer)</li>
+            <li>Now study at 5 course in "Московский финансово-промышленный университет «Синергия»"</li>
+        </ul>
+
+        <h2>English Level:</h2>
+        between A2-B1
+    </div>
+
+</div>
+</body>
